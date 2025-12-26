@@ -1,15 +1,15 @@
 **🟢 Cara Pakai**
 1. Simpan script
-nano /root/stb-monitor.sh
+nano /root/monitor.sh
 
 
 Paste semua isi script → save.
 
 2. Bikin executable
-chmod +x /root/stb-monitor.sh
+chmod +x /root/monitor.sh
 
 3. Tambah cronjob (jalan tiap menit)
-* * * * * /root/stb-monitor.sh
+* * * * * /root/monitor.sh
 
 **🟢 Cara kerja**
 🔹 Tiap menit:
