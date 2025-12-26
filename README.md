@@ -9,7 +9,7 @@ Paste semua isi script → save.
 chmod +x /root/monitor.sh
 
 3. Tambah cronjob (jalan tiap menit)
-* * * * * /root/monitor.sh
+``* * * * * /root/monitor.sh``
 
 **🟢 Cara kerja**
 🔹 Tiap menit:
